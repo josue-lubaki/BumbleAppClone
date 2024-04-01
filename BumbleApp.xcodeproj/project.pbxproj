@@ -11,6 +11,7 @@
 		B0530E752BBB51010014ED24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0530E742BBB51010014ED24 /* ContentView.swift */; };
 		B0530E772BBB51020014ED24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0530E762BBB51020014ED24 /* Assets.xcassets */; };
 		B0530E7A2BBB51020014ED24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0530E792BBB51020014ED24 /* Preview Assets.xcassets */; };
+		B0530E832BBB54100014ED24 /* BumbleHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0530E822BBB54100014ED24 /* BumbleHomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B0530E742BBB51010014ED24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0530E762BBB51020014ED24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0530E792BBB51020014ED24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0530E822BBB54100014ED24 /* BumbleHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleHomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,8 @@
 		B0530E712BBB51010014ED24 /* BumbleApp */ = {
 			isa = PBXGroup;
 			children = (
+				B0530E812BBB53FE0014ED24 /* Core */,
+				B0530E802BBB53F60014ED24 /* Components */,
 				B0530E722BBB51010014ED24 /* BumbleAppApp.swift */,
 				B0530E742BBB51010014ED24 /* ContentView.swift */,
 				B0530E762BBB51020014ED24 /* Assets.xcassets */,
@@ -65,6 +69,21 @@
 				B0530E792BBB51020014ED24 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0530E802BBB53F60014ED24 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B0530E812BBB53FE0014ED24 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B0530E822BBB54100014ED24 /* BumbleHomeView.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0530E752BBB51010014ED24 /* ContentView.swift in Sources */,
+				B0530E832BBB54100014ED24 /* BumbleHomeView.swift in Sources */,
 				B0530E732BBB51010014ED24 /* BumbleAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
